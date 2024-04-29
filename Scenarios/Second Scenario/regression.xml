@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" verbose="1">
+    <test name="Regression1">
+
+        <classes>
+            <class name="C1_BaseDriver.Getdriver"/>
+            <class name="C2_Captcha.CaptchaTest"/>
+            <class name="C31_HomePage.HomePageTest"/>
+            <class name="C32_TodaysDealsPage.TodaysDealsTest"/>
+            <class name="C42_SelectItem_TodayDealsPage.SelectItem_TodayDealsTest"/>
+        </classes>
+    </test>
+</suite>
